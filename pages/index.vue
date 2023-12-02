@@ -8,11 +8,11 @@
     <div class="grid md:grid-cols-3 gap-6 md:gap-12 max-w-7xl mx-auto">
       <div class="bg-gradient-to-r from-zinc-600 border-2 border-zinc-600 rounded-[40px] p-10">
         <h3 class="text-[3em] text-white">01</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-zinc-100">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="border-2 border-zinc-600 rounded-[40px] p-10">
         <h3 class="text-[3em] text-white">02</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-zinc-100">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="bg-amber-100 rounded-[40px] p-10">
         <h3 class="text-[3em] text-zinc-800">03</h3>
