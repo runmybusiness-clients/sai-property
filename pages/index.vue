@@ -26,7 +26,7 @@
       <div>
         <h3 class="text-md text-zinc-400 uppercase">Zirakpur</h3>
         <h3 class="text-[3em] text-white">Property Name</h3>
-        <p class="text-zinc-400 text-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium delectus reiciendis enim fuga nihil deleniti, similique, omnis ducimus deserunt consequatur culpa earum placeat, accusamus tenetur quod sed dolorem! Eos?</p>
+        <p class="text-zinc-200 text-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium delectus reiciendis enim fuga nihil deleniti, similique, omnis ducimus deserunt consequatur culpa earum placeat, accusamus tenetur quod sed dolorem! Eos?</p>
       </div>
       <img src="/images/image_1.jpeg" alt="" class="rounded-3xl md:rounded-[70px]">
     </div>
@@ -108,9 +108,8 @@
   <footer class='p-4 bg-white md:flex md:items-center md:justify-between md:p-6 dark:bg-zinc-800 w-full'>
     <span class='hidden md:block text-sm text-zinc-500 sm:text-center dark:text-zinc-400'>© 2023 <a href='https://boltwind.ink/' class='hover:underline'>Sai Properties</a>. All Rights Reserved.</span>
     <div class='flex flex-wrap gap-5 items-center justify-between text-sm text-zinc-500 dark:text-zinc-400'>
-      <a href='#' class='hover:underline'>About</a>
-      <a href='#' class='hover:underline'>Privacy Policy</a>
-      <a href='#' class='hover:underline'>Contact</a>
+      <NuxtLink to='/about' class='hover:underline'>About</NuxtLink>
+      <NuxtLink to='/privacy' class='hover:underline'>Privacy Policy</NuxtLink>
     </div>
   </footer>
 

@@ -31,7 +31,7 @@
             </button>
           </footer>
         </section>
-        <button v-else class="fixed bottom-4 right-4 z-0 bg-amber-400 text-white rounded-full w-16 h-16 flex items-center justify-center" @click="openChat = !openChat">
+        <button v-else class="fixed bottom-12 right-4 z-0 bg-amber-400 text-white rounded-full w-16 h-16 flex items-center justify-center" @click="openChat = !openChat">
           <Icon name="ic:round-whatsapp" class="w-9 h-9" />
         </button>
       </Transition>
