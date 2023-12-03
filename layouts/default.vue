@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-zinc-900">
+  <div class="bg-white">
     <MainNavbar />
 
     <main class="relative">
@@ -7,12 +7,12 @@
 
       <Transition name="slide-fade">
         <section class="fixed bottom-4 right-4 rounded-2xl overflow-hidden shadow-lg bg-white z-10 w-[28vw]" v-if="openChat">
-          <header class="flex justify-between p-3 bg-amber-400">
+          <header class="flex justify-between p-3 bg-green-500">
             <div class="flex items-center justify-center gap-2 text-white">
               <Icon name="ic:round-whatsapp" class="w-8 h-8" />
               <span>WhatsApp</span>
             </div>
-            <button class="bg-amber-600/25 text-white flex items-center justify-center rounded-full h-9 w-9" @click="openChat = !openChat">
+            <button class="bg-green-600/25 text-white flex items-center justify-center rounded-full h-9 w-9" @click="openChat = !openChat">
               <Icon name="iconamoon:sign-times" class="w-5 h-5" />
             </button>
           </header>
@@ -25,13 +25,13 @@
             </div>
           </div>
           <footer class="px-4 flex justify-end pb-4">
-            <button class="flex items-center gap-2 bg-amber-400 text-white rounded-xl px-4 py-2.5 group">
+            <button class="flex items-center gap-2 bg-green-500 text-white rounded-xl px-4 py-2.5 group">
               <span>Open chat</span>
               <Icon name="carbon:send-alt-filled" class="h-6 w-6 group-hover:scale-125 transition duration-700 ease-in-out" />
             </button>
           </footer>
         </section>
-        <button v-else class="fixed bottom-12 right-4 z-0 bg-amber-400 text-white rounded-full w-16 h-16 flex items-center justify-center" @click="openChat = !openChat">
+        <button v-else class="fixed bottom-12 right-4 z-0 bg-green-500 text-white rounded-full w-16 h-16 flex items-center justify-center" @click="openChat = !openChat">
           <Icon name="ic:round-whatsapp" class="w-9 h-9" />
         </button>
       </Transition>

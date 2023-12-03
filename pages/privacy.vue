@@ -22,9 +22,9 @@
 
         <h2 class="font-bold my-4 text-xl">Collecting and Using Your Personal Data</h2>
 
-        <h3 class="font-bold my-4">Types of Data Collected</h3>
+        <h3 class="font-bold my-4 text-zinc-800">Types of Data Collected</h3>
 
-        <strong class="my-4">Personal Data</strong>
+        <strong class="my-4 text-zinc-800">Personal Data</strong>
 
         <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You.Personally identifiable information may include, but is not limited to:</p>
 
@@ -35,7 +35,7 @@
             <li>Usage Data</li>
         </ul>
 
-        <h3 class="font-bold my-4">Changes to this Privacy Policy </h3>
+        <h3 class="font-bold my-4 text-zinc-800">Changes to this Privacy Policy </h3>
 
         <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
         <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.</p>
@@ -55,9 +55,13 @@
     font-weight: bold;
     margin-bottom: 6px;
     margin-top: 2em;
+    color: #222;
   }
   p{
     font-size: 14px;
-    color: #DCDCDC;
+    color: #333;
+  }
+  ul{
+    color: #333;
   }
 </style>

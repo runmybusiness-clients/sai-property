@@ -3,9 +3,9 @@
     <img src="/images/about.jpeg" alt="sai-property" class="w-full h-[30vh] object-cover">
       <div class="max-w-5xl mx-auto py-12">
           <div class="text-2xl mb-6 text-center">
-            <span class="text-zinc-400">Unlocking Your Dream Home with</span> <br/> 
-            <span class="uppercase">Sai Properties - SHUBHAM MULTI DEVELOPERS</span> <br/>
-            <span class="text-zinc-400"> Your Trusted Real Estate Partner</span>
+            <h4 class="text-zinc-700">Unlocking Your Dream Home with</h4> 
+            <h4 class="text-zinc-800 my-2 font-bold uppercase">Sai Properties - SHUBHAM MULTI DEVELOPERS</h4>
+            <h4 class="text-zinc-700"> Your Trusted Real Estate Partner</h4>
           </div>
           <p>In the ever-evolving landscape of real estate, finding a reliable partner to navigate the complexities of buying or selling a property is crucial. Enter Sai Properties, a distinguished real estate agency that has etched its name as a trusted guide in the realms of Zirakpur, Mohali, Panchkula, and Chandigarh. With a commitment to excellence, a customer-centric approach, and an unwavering dedication to fulfilling dreams, Sai Properties stands out as the go-to destination for all your real estate needs.</p>
 
@@ -56,9 +56,10 @@
     font-weight: bold;
     margin-bottom: 6px;
     margin-top: 2em;
+    color: #222;
   }
   p{
     font-size: 14px;
-    color: #DCDCDC;
+    color: #333;
   }
 </style>
