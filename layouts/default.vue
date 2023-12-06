@@ -6,7 +6,7 @@
       <slot />
 
       <Transition name="slide-fade">
-        <section class="fixed bottom-4 right-4 rounded-2xl overflow-hidden shadow-lg bg-white z-10 w-[28vw]" v-if="openChat">
+        <section class="fixed bottom-4 right-4 rounded-2xl overflow-hidden shadow-lg bg-white z-10 md:w-[28vw] w-[92vw]" v-if="openChat">
           <header class="flex justify-between p-3 bg-green-500">
             <div class="flex items-center justify-center gap-2 text-white">
               <Icon name="ic:round-whatsapp" class="w-8 h-8" />
