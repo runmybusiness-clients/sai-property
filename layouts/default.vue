@@ -25,10 +25,10 @@
             </div>
           </div>
           <footer class="px-4 flex justify-end pb-4">
-            <button class="flex items-center gap-2 bg-green-500 text-white rounded-xl px-4 py-2.5 group">
+            <a href="https://wa.me/916284972751?text=Welcome,%20to%20Sai%20Properties" target="_blank" class="flex items-center gap-2 bg-green-500 text-white rounded-xl px-4 py-2.5 group">
               <span>Open chat</span>
               <Icon name="carbon:send-alt-filled" class="h-6 w-6 group-hover:scale-125 transition duration-700 ease-in-out" />
-            </button>
+            </a>
           </footer>
         </section>
         <button v-else class="fixed bottom-12 right-4 z-0 bg-green-500 text-white rounded-full w-16 h-16 flex items-center justify-center" @click="openChat = !openChat">
