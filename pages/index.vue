@@ -35,8 +35,8 @@
     </div>
   </section>
 
-  <!-- Properties -->
-  <section class="pt-20 px-3">
+  <!-- Fetaured Properties -->
+  <!-- <section class="pt-20 px-3">
     <div class="max-w-7xl mx-auto ">
       <div class="headings mb-4">
         <span class="text-md border border-zinc-600 rounded-2xl px-6 py-3 text-sm text-zinc-800  uppercase">Properties</span>
@@ -75,6 +75,37 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+  <!-- Completed Project -->
+  <section class="pt-20 px-3">
+    <div class="max-w-7xl mx-auto">
+      <div class="headings mb-4">
+        <span class="text-md border border-zinc-600 rounded-2xl px-6 py-3 text-sm text-zinc-800  uppercase">Farm House In Morni</span>
+        <div class="mt-5 flex flex-col md:flex-row items-center justify-between w-full">
+          <h3 class="text-[2em] md:text-[3em] text-zinc-800">Our Delievered Project</h3>
+          <button class="border rounded-xl text-gray-500 hover:bg-gray-50 hover:text-gray-800 px-5 py-2 text-sm" @click="onShow">View all</button>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-4 gap-6">
+        <img src="/projects/1.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
+        <img src="/projects/2.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
+        <img src="/projects/3.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
+        <figure class="w-full object-cover md:h-[35vh] rounded-xl overflow-hidden relative group">
+          <img src="/projects/4.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
+          <button class="absolute bg-gray-900/50 backdrop-blur top-0 left-0 right-0 bottom-0 hidden group-hover:flex items-center justify-center text-white uppercase text-sm" @click="onShow">
+            View more
+          </button>
+        </figure>
+      </div>
+
+      <vue-easy-lightbox
+        :visible="visibleRef"
+        :imgs="images"
+        :index="indexRef"
+        @hide="onHide"
+      ></vue-easy-lightbox>
+    </div>
   </section>
 
   <!-- Contact Us -->
@@ -86,12 +117,7 @@
       </div>
       <div class="flex flex-col md:flex-row border shadow rounded-3xl md:rounded-[100px] p-3 md:p-10 items-center gap-6 md:gap-12">
         <img src="/images/contact.jpeg" alt="sai-properties-map-location" class="rounded-3xl md:rounded-[70px] w-full h-full object-cover shadow-xl">
-        <div class="w-full space-y-5">
-          <input type="text" placeholder="Name" class="focus:outline-none w-full p-4 border rounded-xl bg-transparent border-zinc-600">
-          <input type="email" placeholder="Email" class="focus:outline-none w-full p-4 border rounded-xl bg-transparent border-zinc-600">
-          <input type="text" placeholder="Phone" class="focus:outline-none w-full p-4 border rounded-xl bg-transparent border-zinc-600">
-          <button class="bg-amber-400 text-zinc-800 px-8 py-3 rounded-xl">Get help now</button>
-        </div>
+        <ContactForm />
       </div>
     </div>
   </section>
@@ -119,6 +145,8 @@
 </template>
 
 <script setup>
+  import VueEasyLightbox from 'vue-easy-lightbox'
+
   definePageMeta({
     colorMode: 'light'
   })
@@ -130,6 +158,29 @@
     ogImage: '/images/logo.png',
     twitterCard: '/images/logo.png',
   })
+  const visibleRef = ref(false)
+  const indexRef = ref(0)
+
+  const images = ref([
+    '/projects/1.jpeg',
+    '/projects/2.jpeg',
+    '/projects/3.jpeg',
+    '/projects/4.jpeg',
+    '/projects/5.jpeg',
+    '/projects/6.jpeg',
+    '/projects/7.jpeg',
+    '/projects/8.jpeg',
+    '/projects/9.jpeg',
+    '/projects/10.jpeg',
+    '/projects/11.jpeg',
+    '/projects/12.jpeg',
+    '/projects/13.jpeg'
+  ])
+
+  const onShow = () => {
+    visibleRef.value = true
+  }
+  const onHide = () => (visibleRef.value = false)
 </script>
 
 <style>
