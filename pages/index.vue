@@ -82,29 +82,28 @@
     <div class="max-w-7xl mx-auto">
       <div class="headings mb-4">
         <span class="text-md border border-zinc-600 rounded-2xl px-6 py-3 text-sm text-zinc-800  uppercase">Farm House In Morni</span>
-        <div class="mt-5 flex flex-col md:flex-row items-center justify-between w-full">
+        <div class="mt-5 flex flex-col md:flex-row w-full">
           <h3 class="text-[2em] md:text-[3em] text-zinc-800">Our Delievered Project</h3>
-          <button class="border rounded-xl text-gray-500 hover:bg-gray-50 hover:text-gray-800 px-5 py-2 text-sm" @click="onShow">View all</button>
+          <!-- <button class="border rounded-xl text-gray-500 hover:bg-gray-50 hover:text-gray-800 px-5 py-2 text-sm" @click="onShow">View all</button> -->
         </div>
       </div>
-      <div class="grid md:grid-cols-4 gap-6">
-        <img src="/projects/1.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
-        <img src="/projects/2.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
-        <img src="/projects/3.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
-        <figure class="w-full object-cover md:h-[35vh] rounded-xl overflow-hidden relative group">
-          <img src="/projects/4.jpeg" alt="sai-properties-map-location" class="w-full object-cover md:h-[35vh] rounded-xl">
-          <button class="absolute bg-gray-900/50 backdrop-blur top-0 left-0 right-0 bottom-0 hidden group-hover:flex items-center justify-center text-white uppercase text-sm" @click="onShow">
-            View more
-          </button>
-        </figure>
+      
+      <div class="grid md:grid-cols-2 gap-6">
+        <NuxtLink to="/delievered/farm-house" class="rounded-xl bg-white shadow p-1 overflow-hidden">
+          <img src="/projects/1.jpeg" alt="" class="rounded-xl md:h-[50vh] w-full object-cover">
+          <div class="p-2">
+            <h1 class="text-xl">Farm House</h1>
+            <p class="text-sm font-semibold text-yellow-800">Morni, Haryana</p>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/delievered/4bhk-independent" class="rounded-xl bg-white shadow p-1 overflow-hidden">
+          <img src="/projects/inde-1.jpeg" alt="" class="rounded-xl md:h-[50vh] w-full object-cover">
+          <div class="p-2">
+            <h1 class="text-xl">Independent 4BHk House</h1>
+            <p class="text-sm font-semibold text-yellow-800"></p>
+          </div>
+        </NuxtLink>
       </div>
-
-      <vue-easy-lightbox
-        :visible="visibleRef"
-        :imgs="images"
-        :index="indexRef"
-        @hide="onHide"
-      ></vue-easy-lightbox>
     </div>
   </section>
 
@@ -145,8 +144,6 @@
 </template>
 
 <script setup>
-  import VueEasyLightbox from 'vue-easy-lightbox'
-
   definePageMeta({
     colorMode: 'light'
   })
@@ -158,29 +155,7 @@
     ogImage: '/images/logo.png',
     twitterCard: '/images/logo.png',
   })
-  const visibleRef = ref(false)
-  const indexRef = ref(0)
-
-  const images = ref([
-    '/projects/1.jpeg',
-    '/projects/2.jpeg',
-    '/projects/3.jpeg',
-    '/projects/4.jpeg',
-    '/projects/5.jpeg',
-    '/projects/6.jpeg',
-    '/projects/7.jpeg',
-    '/projects/8.jpeg',
-    '/projects/9.jpeg',
-    '/projects/10.jpeg',
-    '/projects/11.jpeg',
-    '/projects/12.jpeg',
-    '/projects/13.jpeg'
-  ])
-
-  const onShow = () => {
-    visibleRef.value = true
-  }
-  const onHide = () => (visibleRef.value = false)
+  
 </script>
 
 <style>
