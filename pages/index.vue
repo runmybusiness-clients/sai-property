@@ -99,7 +99,7 @@
         <NuxtLink to="/delievered/4bhk-independent" class="rounded-xl bg-white shadow p-1 overflow-hidden">
           <img src="/projects/inde-1.jpeg" alt="" class="rounded-xl md:h-[50vh] w-full object-cover">
           <div class="p-2">
-            <h1 class="text-xl">Independent 4BHk House</h1>
+            <h1 class="text-xl">Independent - 4 BHK House</h1>
             <p class="text-sm font-semibold text-yellow-800"></p>
           </div>
         </NuxtLink>
