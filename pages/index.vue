@@ -89,6 +89,7 @@
       </div>
       
       <div class="grid md:grid-cols-2 gap-6">
+        <!-- Project-1 -->
         <NuxtLink to="/delievered/farm-house" class="rounded-xl bg-white shadow p-1 overflow-hidden">
           <img src="/projects/1.jpeg" alt="" class="rounded-xl md:h-[50vh] w-full object-cover">
           <div class="p-2">
@@ -96,6 +97,7 @@
             <p class="text-sm font-semibold text-yellow-800">Morni, Haryana</p>
           </div>
         </NuxtLink>
+        <!-- Project-2 -->
         <NuxtLink to="/delievered/4bhk-independent" class="rounded-xl bg-white shadow p-1 overflow-hidden">
           <img src="/projects/inde-1.jpeg" alt="" class="rounded-xl md:h-[50vh] w-full object-cover">
           <div class="p-2">
@@ -103,9 +105,112 @@
             <p class="text-sm font-semibold text-yellow-800"></p>
           </div>
         </NuxtLink>
+        <!-- Project-3 -->
+        <NuxtLink to="/delievered/rental-proerty-1" class="rounded-xl bg-white shadow p-1 overflow-hidden">
+          <img src="/projects/pro3-7.jpeg" alt="" class="rounded-xl md:h-[50vh] w-full object-cover">
+        </NuxtLink>
+        <!-- Project-4 -->
+        <NuxtLink to="/delievered/rental-proerty-2" class="rounded-xl bg-white shadow p-1 overflow-hidden">
+          <img src="/projects/pro4-6.jpeg" alt="" class="rounded-xl md:h-[50vh] w-full object-cover">
+        </NuxtLink>
       </div>
     </div>
   </section>
+
+  <!-- Happy Cutomers -->
+  <section class="pt-20 px-3">
+    <div class="max-w-7xl mx-auto">
+      <div class="headings mb-4">
+        <div class="flex flex-col md:flex-row w-full">
+          <h3 class="text-[2em] md:text-[3em] text-zinc-800">Our Happy Customer's</h3>
+        </div>
+        <button class="my-5">
+          <span class="text-md border border-zinc-600 rounded-2xl px-6 py-3 text-sm text-zinc-800  uppercase">Buyers</span>
+        </button>
+      </div>
+      
+      <div class="grid md:grid-cols-5 gap-6">
+        <figure>
+          <img src="/clients/buyers/1.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Pawan Kumar (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/2.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Col Praveen thakur (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/3.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Ashish (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/4.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr O P Sudha (Commercial)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/5.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Bramhjit Katyal (Commercial)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/6.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Ajay Sharma (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/7.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Ashmad Alok (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/8.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Navdeep Kohli (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/9.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Kamlesh (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/buyers/10.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Col Sachit (Residential & Commercial)</h4>
+        </figure>
+      </div>
+
+      <button class="my-5">
+        <span class="text-md border border-zinc-600 rounded-2xl px-6 py-3 text-sm text-zinc-800  uppercase">Seller</span>
+      </button>
+      <div class="grid md:grid-cols-5 gap-6">
+        <figure>
+          <img src="/clients/seller/1.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Surinder (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/seller/2.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Manpal Singh (Commercial)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/seller/3.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Aashish (Residential)</h4>
+        </figure>
+        <figure>
+          <img src="/clients/seller/4.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Jagdish Soni (Residential)</h4>
+        </figure>
+
+        <figure>
+          <img src="/clients/seller/5.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Keshav Aggarwal ( Residential )</h4>
+        </figure>
+        <figure>
+          <img src="/clients/seller/6.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Mr Atul Ahuja ( Residential )</h4>
+        </figure>
+        <figure>
+          <img src="/clients/seller/7.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Dr Ashok Tamta ( Residential Buyer )</h4>
+        </figure>
+      </div>
+
+    </div>
+  </section>
+
+
 
   <!-- Contact Us -->
   <section class="pt-20 px-3" id="contact">
