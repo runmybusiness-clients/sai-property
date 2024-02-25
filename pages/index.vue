@@ -170,6 +170,10 @@
           <img src="/clients/buyers/10.jpeg" alt="" class="rounded-xl">
           <h4 class="text-center text-sm mt-2">Col Sachit (Residential & Commercial)</h4>
         </figure>
+        <figure>
+          <img src="/clients/buyers/11.jpeg" alt="" class="rounded-xl">
+          <h4 class="text-center text-sm mt-2">Dr Ashok Tamta (Residential)</h4>
+        </figure>
       </div>
 
       <button class="my-5">
@@ -200,10 +204,6 @@
         <figure>
           <img src="/clients/seller/6.jpeg" alt="" class="rounded-xl">
           <h4 class="text-center text-sm mt-2">Mr Atul Ahuja ( Residential )</h4>
-        </figure>
-        <figure>
-          <img src="/clients/seller/7.jpeg" alt="" class="rounded-xl">
-          <h4 class="text-center text-sm mt-2">Dr Ashok Tamta ( Residential Buyer )</h4>
         </figure>
       </div>
 
